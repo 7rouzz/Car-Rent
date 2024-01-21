@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Add Car</title>
+    <link rel="shortcut icon" href="../favicon.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <header class="header" data-header>
+      <div class="container">
+  
+        <div class="overlay" data-overlay></div>
+  
+        <a href="index.php" class="logo">
+          <img src="../assets/images/logo.png" width="120" height="60" style="padding-right : 50 px"> 
+        </a>
+  
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+  
+            <li>
+            
+            </li>
+  
+  
+          </ul>
+        </nav>
+  
+        <div class="header-actions">
+          
+          <div class="header-contact">
+            
+          </div>
+  
+        </div>
+  
+      </div>
+     
+     
+    </header><br><br><br>
+    
+
+    <form action="Add_Car.php" method="post" enctype="multipart/form-data">
+      <center><h1>Add Car</h1></center><br>
+      <div class="container">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" name="m" />
+          <label for="floatingInput">Model</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input type="number" class="form-control" id="floatingInput" name="y" />
+          <label for="floatingInput">Year</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input type="number" class="form-control" id="floatingInput" name="n"/>
+          <label for="floatingInput">Number Of Seats</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" name="f"/>
+          <label for="floatingInput">Flash</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" name="sp"/>
+          <label for="floatingInput">Speedometer</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" name="h"/>
+          <label for="floatingInput">Hardware Chip</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input type="number" class="form-control" id="floatingInput" name="p"/>
+          <label for="floatingInput">Price</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input type="file" class="form-control"  name="i"/>
+          <label for="floatingInput">Img</label>
+        </div>
+        <br />
+
+        <center><button type="submit" class="btn" >Add</button></center>
+      </div>
+    </form>
+  </body>
+</html>

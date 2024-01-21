@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="index.php" class="logo">
+        <img src="../assets/images/logo.png" width="120" height="60" style="padding-right : 50 px"> 
+      </a>
+
+
+      <div class="header-actions">
+        
+        <div class="header-contact">
+          
+        </div>
+
+     
+
+
+      </div>
+
+    </div>
+    <title>Add Provider</title>
+   
+  </header><br><br><br>
+ 
+<div  class="container" >
+  <center><h1>Add Provider</h1></center><br>
+<form action="Add_Provider.php" method="post">
+      <div class="text-center">
+
+
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" name="n" required />
+          <label for="floatingInput">Name</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input
+            type="tel"
+            class="form-control"
+            id="floatingInput"
+            name="t" required/>
+          <label for="floatingInput">Telephone</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInput" name="a" required />
+            <label for="floatingInput">Adresse</label>
+          </div>
+          <br />
+
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" name="e" required />
+          <label for="floatingInput">E-mail</label>
+        </div>
+        <br />
+
+        <div class="form-floating">
+          <input type="file" class="form-control" id="floatingInput" name="i" required/>
+          <label for="floatingInput">Img</label>
+        </div>
+        <br />
+
+       <center> <button type="submit" class="btn"  >Add</button> </center>
+      </div>
+    </form>
+</div>
+
+</body>
+</html>
